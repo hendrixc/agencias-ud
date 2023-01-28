@@ -17,7 +17,7 @@ public class AgenciaMapper {
     public static Agencia mapToAgencia(AgenciaRQ agenciaRQ) {
         Agencia agencia = new Agencia();
         agencia.setCodigo(agenciaRQ.getCodigo());
-        agencia.setNombre(agencia.getNombre());
+        agencia.setNombre(agenciaRQ.getNombre());
         return agencia;
     }
 
